@@ -6,18 +6,10 @@ import matplotlib.pyplot as plt
 
 (X_train,y_train),(X_test,y_test)=keras.datasets.fashion_mnist.load_data()
 
-#plt.imshow(X_train[0])
 
 class_names = ['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat',
                'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot']
 
-class_names[y_train[0]]
-
-plt.figure(figsize=(3,3))
-for i in range(5):
-    plt.imshow(X_train[i])
-    plt.xlabel(class_names[y_train[i]])
-    plt.show()
     
 scaled_X_train=X_train/255.0
 scaled_y_train=y_train/255.0
