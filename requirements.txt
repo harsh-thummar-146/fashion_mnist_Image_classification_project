@@ -1,5 +1,6 @@
 pandas
 numpy
 tensorflow
-tensorflow.keras
-matploylib.pyplot
+keras
+matplotlib
+pyplot
